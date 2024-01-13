@@ -57,7 +57,7 @@ const Home = () => {
         <h2 className="text-center text-2xl my-10 font-semibold">
           Reliable end-to-end verification services
         </h2>
-        <section className="w-11/12 lg:w-10/12 mx-auto p-2 flex flex-grow flex-col md:flex-row gap-16 md:gap-10  justify-between">
+        <section className="w-11/12 lg:w-10/12 mx-auto p-2 flex flex-grow flex-col md:flex-row gap-20 md:gap-16  justify-between">
           {cardDetails.map((card, index) => {
             return (
               <HomeCards
