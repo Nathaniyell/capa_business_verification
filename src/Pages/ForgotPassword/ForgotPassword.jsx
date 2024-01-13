@@ -62,7 +62,8 @@ const ForgotPassword = () => {
   };
 
   return (
-    <Box sx={{ width: "40%", margin: "2rem auto 0 auto" }}>
+    <Box className="w-full h-screen flex justify-center items-center">
+    <div className="w-[95%] md:w-[40%] my-0 mx-auto border border-green-300 border-solid py-8 px-4 rounded-md">
       <Box sx={{ marginBottom: "1rem" }}>
         <Typography
           variant="h5"
@@ -118,6 +119,7 @@ const ForgotPassword = () => {
           )}
         </Formik>
       </Box>
+      </div>
     </Box>
   );
 };

@@ -71,10 +71,10 @@ const Login = () => {
     }
 
   return (
-    <Box className="w-full h-screen flex justify-center items-center">
-      <div className="w-[95%] md:w-[40%] my-0 mx-auto border border-blue-300 border-solid py-8 px-4 rounded-md">
+    <Box className="w-full h-screen bg-zinc-100 flex justify-center items-center">
+      <div className="w-[95%] md:w-[40%] my-0 mx-auto">
         <Box sx={{ marginBottom: "1rem" }}>
-      <Typography variant="h5" align="center" sx={{fontWeight: "bold"}} color="#007FFF" gutterBottom>
+      <Typography variant="h5" align="center" sx={{fontWeight: "bold"}} className="text-green-600" gutterBottom>
           CapaBusiness Verification
         </Typography>
         <Typography variant="body2" align="center" sx={{fontWeight: "bold"}} gutterBottom>
